@@ -252,9 +252,21 @@ a:focus-visible {
   color: var(--color-danger);
 }
 
-.product-card__button {
+.product-card__actions {
   margin-top: auto;
-  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--space-sm);
+}
+
+.product-card__actions .button {
+  min-width: 120px;
+  text-align: center;
+}
+
+.product-card__button {
+  margin-top: 0;
 }
 
 .aside-info {
