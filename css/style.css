@@ -446,3 +446,18 @@ a:focus-visible {
   border: 1px solid var(--color-border);
   text-align: left;
 }
+
+.site-header,
+.site-footer {
+  width: 100%;
+  padding: 0;
+  background-color: var(--color-surface);
+}
+
+.site-header__inner,
+.site-footer__inner {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
