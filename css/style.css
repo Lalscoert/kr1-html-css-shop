@@ -47,11 +47,19 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-  color: var(--color-text);
-  background-color: var(--color-bg);
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.65),
+      rgba(255, 255, 255, 0.65)
+    ),
+    url("../images/background.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header,
@@ -139,7 +147,7 @@ a:focus-visible {
    =============================== */
 
 .site-header {
-  background-color: #eaf7f3;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .site-header__inner {
@@ -192,7 +200,7 @@ a:focus-visible {
   max-width: var(--container-width);
   margin: 0 auto var(--space-xl);
   padding: var(--space-xl) var(--space-lg);
-  background-color: var(--color-accent);
+  background-color: rgba(255, 255, 255, 0.75);
   border-radius: var(--radius-lg);
 }
 
@@ -451,7 +459,7 @@ a:focus-visible {
 .site-footer {
   width: 100%;
   padding: 0;
-  background-color: var(--color-surface);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .site-header__inner,
