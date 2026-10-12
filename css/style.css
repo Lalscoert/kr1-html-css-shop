@@ -242,6 +242,20 @@ a:focus-visible {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background-color: var(--color-bg);
+  position: relative;
+  padding-right: 100px;
+}
+
+.product-card__image {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+
+  width: 70px;
+  height: 70px;
+
+  object-fit: contain;
+  border-radius: var(--radius-md);
 }
 
 .product-card:hover {
@@ -487,4 +501,9 @@ a:focus-visible {
   max-width: var(--container-width);
   margin: 0 auto;
   padding: var(--space-lg);
+}
+
+.product-card {
+  position: relative;
+  padding-right: 100px;
 }
