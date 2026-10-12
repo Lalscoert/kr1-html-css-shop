@@ -4,17 +4,17 @@
 
 :root {
   /* Основные цвета проекта */
-  --color-bg: #ffffff;
-  --color-text: #222222;
-  --color-muted: #666666;
-  --color-primary: #0057b8;
-  --color-primary-dark: #003f86;
-  --color-border: #dddddd;
-  --color-surface: #f7f7f7;
-  --color-surface-accent: #eef5ff;
+  --color-bg: #f4fbf8;
+  --color-text: #1f2d29;
+  --color-muted: #667a73;
+  --color-primary: #4fb99f;
+  --color-primary-dark: #36967e;
+  --color-border: #cfe3dc;
+  --color-surface: #ffffff;
+  --color-surface-accent: #e2f5ef;
   --color-danger: #b00020;
-  --color-success: #168a2f;
-  --color-success-bg: #eefaf0;
+  --color-success: #2e9b6f;
+  --color-success-bg: #e8f8f1;
   --color-white: #ffffff;
 
   /* Отступы */
@@ -61,11 +61,11 @@ footer {
 }
 
 header {
-  background-color: var(--color-surface);
+  background-color: #eaf7f3;
 }
 
 footer {
-  background-color: var(--color-surface);
+  background-color: #eaf7f3;
 }
 
 :target {
@@ -139,7 +139,7 @@ a:focus-visible {
    =============================== */
 
 .site-header {
-  background-color: var(--color-surface);
+  background-color: #eaf7f3;
 }
 
 .site-header__inner {
@@ -192,7 +192,7 @@ a:focus-visible {
   max-width: var(--container-width);
   margin: 0 auto var(--space-xl);
   padding: var(--space-xl) var(--space-lg);
-  background-color: var(--color-surface-accent);
+  background-color: var(--color-accent);
   border-radius: var(--radius-lg);
 }
 
